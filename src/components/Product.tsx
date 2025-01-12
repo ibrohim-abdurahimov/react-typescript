@@ -1,6 +1,7 @@
 import  {useState, useEffect} from 'react'
 import axios from 'axios'
-import { Product } from '../types'
+import type { Product } from '../types'
+
 
 const Product = () => {
     const [data, setData] = useState<null | Product[]>(null)
