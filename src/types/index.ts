@@ -1,5 +1,11 @@
 export interface Product {
     id: number,
-    image: string,
-    name: string,
+    img: string,
+    title: string,
+    price: number,
+    lastprice: number
 }
+export interface LightItem {
+    id: string;
+    name: string;
+  }

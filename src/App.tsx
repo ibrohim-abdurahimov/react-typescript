@@ -1,14 +1,16 @@
 import './App.css'
 import Footer from './components/Footer'
 import Header from './components/Header'
-import Product from './components/Product'
+import Pro from './components/Pro'
+
 
 function App() {
 
   return (
     <>
       <Header/>
-      <Product/>
+      {/* <Product/> */}
+      <Pro/>
       <Footer/>
     </>
   )
